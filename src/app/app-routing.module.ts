@@ -7,10 +7,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageConsoComponent } from './home-page/page-conso/page-conso.component';
 import { ResultComponent } from './home-page/page-conso/result/result.component';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { MapComponent } from './map/map.component';
 import { PageDefiComponent } from './page-defi/page-defi.component';
 import { TipsComponent } from './tips/tips.component';
-
-
 
 const routes: Routes = [
   { path: 'changement', component: PageChangementComponent},
@@ -19,10 +18,12 @@ const routes: Routes = [
   { path: 'consommation', component : PageConsoComponent},
   { path: 'result_conso', component : ResultComponent },
   { path: 'classement-tel', component : ClassementAchatComponent},
+  { path: 'map', component : MapComponent},
   {path: 'defi', component: TableauDefiComponent},
   {path: 'challenge', component: PageDefiComponent},
   { path: 'conso', component: PageConsoComponent },
   { path: 'tips', component : TipsComponent},
+
 ];
 
 @NgModule({
