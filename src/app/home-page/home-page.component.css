@@ -1,0 +1,70 @@
+.headline {
+    display: block;
+    margin: 4vh auto;
+    text-align: center;
+    font-size: 1.2em;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.textIntroContainer{
+    width: 75vw;
+    height: 40vh;
+    display: block;
+    margin: 3vh auto;
+}
+
+.textIntro {
+    text-align: justify;
+}
+
+.btnContainer {
+    width: 90vw;
+    margin: auto;
+}
+
+.HomePageBtn {
+    display: block;
+    margin: 2vh auto;
+    width: 80vw;
+    height: 10vh;
+    background-color: green;
+    font-weight: bolder;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+.first {
+    background-color: #84b09e;
+}
+
+.second {
+    background-color: #040549;
+}
+
+.third {
+    background-color: #EB692C;
+}
+
+.infoCard {
+    background-color: white;
+    color: black;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    margin: 2vh auto;
+}
+
+.infoCardImg {
+    display: block;
+    margin: 2vh auto;
+    width: 80px;
+    height: 80px;
+}
+
+.infoText {
+    margin-left: 22px;
+    margin-top: -15px;
+}

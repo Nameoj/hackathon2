@@ -1,0 +1,30 @@
+<table class="table table-striped mt-3">
+    <thead class="entete">
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Modèle</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Impact carbone</th>
+        <th scope="col">Classe énergétique</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let phone of phones">
+        <td>
+          <img src="{{phone.classe_energetique}}">
+        </td>
+        <td>
+            {{phone.modele}}
+        </td>
+        <td>
+            {{phone.prix}}
+        </td>
+        <td>
+            {{phone.impact_carbone}}
+        </td>
+        <td>
+          <img src="{{phone.classe_energetique}}">
+        </td>
+      </tr>
+    </tbody>
+  </table>
