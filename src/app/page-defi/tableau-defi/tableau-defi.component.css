@@ -1,0 +1,76 @@
+.h1, h1 {
+    font-size: 1.3rem;
+    color: #eb692c;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+
+.containerDefi {
+    border: solid 2px  #47b09b;
+    color: black;
+    font-size: 2em;
+    text-align: left;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    min-height:115px;
+    padding: 0px 8px;
+}
+
+
+img{
+    height: 9vh;
+    margin: auto;
+    border: solid 1.2px black;
+    border-radius: 50%;
+    padding: 3px;
+    padding-top: 9px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+   
+}
+
+.defi{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.defiTitle{
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: #47b09b;
+
+}
+
+.defiImg{
+    
+    margin: auto 0 auto 0;
+}
+
+.defiText{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+    line-height: 115%;
+}
+
+.badge-dark{
+    display: block;
+    margin: auto;
+    width: 25vw;
+    height: 3vh;
+    font-size: 0.5em;
+    background-color: #040549;
+    margin-right: 2px;
+    margin-bottom: 5px;
+
+
+}
