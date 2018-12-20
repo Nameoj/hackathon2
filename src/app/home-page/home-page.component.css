@@ -1,10 +1,19 @@
+.headline {
+    display: block;
+    margin: 4vh auto;
+    text-align: center;
+    font-size: 1.2em;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
 .textIntroContainer{
     width: 75vw;
-    height: 25vh;
-    overflow-x: scroll;
+    height: 40vh;
     display: block;
-    margin: auto;
-    text-align: justify,
+    margin: 3vh auto;
 }
 
 .textIntro {
@@ -12,16 +21,29 @@
 }
 
 .btnContainer {
-    width: 80vw;
+    width: 90vw;
     margin: auto;
 }
 
 .HomePageBtn {
     display: block;
-    margin: 5vh auto;
-    width: 60vw;
-    height: 15vh;
+    margin: 2vh auto;
+    width: 80vw;
+    height: 10vh;
     background-color: green;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.first {
+    background-color: #84b09e;
+}
+
+.second {
+    background-color: #040549;
+}
+
+.third {
+    background-color: #EB692C;
 }
