@@ -4,12 +4,14 @@ import { ClassementDefiComponent } from './page-defi/classement-defi/classement-
 import { PageChangementComponent } from './page-changement/page-changement.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { MapComponent } from './map/map.component';
 
 const routes: Routes = [
   { path: "changement", component: PageChangementComponent},
   { path: '', component: HomePageComponent},
   { path: 'classement', component : ClassementDefiComponent},
   { path: 'classement-tel', component : ClassementAchatComponent},
+  { path: 'map', component : MapComponent},
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { FormulaireAchatComponent } from './page-changement/formulaire-achat/for
 import { HttpClientModule } from "@angular/common/http";
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
 import { MatCardModule } from '@angular/material/card';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MatCardModule } from '@angular/material/card';
     HomePageComponent,
     PageChangementComponent,
     FormulaireAchatComponent,
-    ClassementAchatComponent
+    ClassementAchatComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
