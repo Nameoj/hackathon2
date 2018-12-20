@@ -1,5 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { template } from '@angular/core/src/render3';
+import { PhoneService } from '../../../Services/PhoneService';
+import { Phone } from '../../../models/Phone';
+
+
 
 @Component({
   selector: 'app-page-conso',
@@ -8,13 +11,13 @@ import { template } from '@angular/core/src/render3';
 })
 export class PageConsoComponent implements OnInit {
 
-  choixMarque: boolean = false;
-  choixModele: boolean = false;
+  public phones:Phone[];
 
-
-  constructor() { }
+  constructor(public phoneService: PhoneService) { }
 
   ngOnInit() {
+      // this.phoneService.testServer();
+  this.phones = this.phoneService.getPhone();
   }
-
+  
 }

@@ -1,60 +1,13 @@
-<div id="card-74095">
-  <div class="card">
-    <a
-      class="card-link collapsed"
-      data-toggle="collapse"
-      data-parent="#card-74095"
-      href="#card-element-616950"
-    >
-      <div class="card-header">
-        Smartphone
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-        <p class="float-right arrow">&#8964;</p>
-      </div>
-    </a>
-
-    <div
-      id="card-element-616950"
-      class="collapse"
-    >
-      <div class="card-body">
-        <div class="input-group mb-3">
-          <select
-            class="custom-select"
-            id="selectMarque"
-            (click)="getMarque()">
-
-            <option selected="selected">Marque</option>
-
-            <option *ngFor="let tel of phoneList">{{ tel.marque }}</option>
-
-          </select>
-        </div>
-
-        <div class="input-group mb-3">
-          <select
-            class="custom-select"
-            id="Modele"
-            (click)="getModele()"
-            [disabled]="!choixMarque"
-            *ngIf=""> 
-
-            <option selected="selected">Modele</option>
-
-            <option value="1">TEST</option>
-
-
-          </select>
-        </div>
-
-        <div class="input-group-append">
-          <button
-            class="btn btn-outline-secondary"
-            type="button"
-            id="button-addon2"
-          >Go.</button>
-        </div>
-      </div>
-    </div>
+<div class="container">
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" *ngFor="let phone of phones" href="#"><span class="fas fa-mobile-alt"></span>{{ phone.brand }} : {{ phone.model }}</a>
+    <div class="dropdown-divider"></div>
   </div>
+</div>
 </div>

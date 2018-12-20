@@ -12,11 +12,16 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageConsoComponent } from './home-page/page-conso/page-conso.component';
 import { PageChangementComponent } from './page-changement/page-changement.component';
 import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { ResultComponent } from './home-page/page-conso/result/result.component';
 import { MatCardModule } from '@angular/material/card';
 import { MapComponent } from './map/map.component';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,8 @@ import { MapComponent } from './map/map.component';
     PageChangementComponent,
     FormulaireAchatComponent,
     ClassementAchatComponent,
-    MapComponent
+    MapComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +45,12 @@ import { MapComponent } from './map/map.component';
     HttpClientModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatOptionModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
