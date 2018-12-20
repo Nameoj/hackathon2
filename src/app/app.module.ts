@@ -4,10 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PageDefiComponent } from './page-defi/page-defi.component';
+import { TableauDefiComponent } from './page-defi/tableau-defi/tableau-defi.component';
+import { ClassementDefiComponent } from './page-defi/classement-defi/classement-defi.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageDefiComponent,
+    TableauDefiComponent,
+    ClassementDefiComponent
   ],
   imports: [
     BrowserModule,
