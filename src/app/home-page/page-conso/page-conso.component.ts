@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { PhoneService } from '../../../Services/PhoneService';
+import { Phone } from '../../../models/Phone';
 
 
 
@@ -9,9 +11,13 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PageConsoComponent implements OnInit {
 
-  constructor() { }
+  public phones:Phone[];
+
+  constructor(public phoneService: PhoneService) { }
 
   ngOnInit() {
+      // this.phoneService.testServer();
+  this.phones = this.phoneService.getPhone();
   }
   
 }

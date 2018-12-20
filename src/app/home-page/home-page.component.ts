@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Phone } from 'src/models/Phone';
-import { PhoneService } from 'src/Services/PhoneService';
+import { Phone } from '../../models/Phone';
+import { PhoneService } from '../../Services/PhoneService';
 
 @Component({
   selector: 'app-home-page',
