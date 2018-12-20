@@ -16,7 +16,7 @@ import { ClassementAchatComponent } from './page-changement/classement-achat/cla
   declarations: [
     AppComponent,
     HomePageComponent,
-    PageConsoComponent
+    PageConsoComponent,
     NavbarComponent,
     HomePageComponent,
     PageChangementComponent,

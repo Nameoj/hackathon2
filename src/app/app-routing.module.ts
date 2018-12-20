@@ -6,7 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 const routes: Routes = [
   { path: "changement", component: PageChangementComponent},
   { path: '', component: HomePageComponent}
-  ];
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
