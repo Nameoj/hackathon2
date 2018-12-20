@@ -12,6 +12,7 @@ import { Phone } from '../../../models/Phone';
 export class PageConsoComponent implements OnInit {
 
   public phones:Phone[];
+  selectedPhone : Phone;
 
   constructor(public phoneService: PhoneService) { }
 
@@ -20,4 +21,7 @@ export class PageConsoComponent implements OnInit {
   this.phones = this.phoneService.getPhone();
   }
   
+  onSelect(phone: Phone): void {
+    this.selectedPhone = phone;
+  }
 }

@@ -23,6 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { TipsComponent } from './tips/tips.component';
+import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
 
 @NgModule({
   declarations: [
@@ -38,9 +39,11 @@ import { TipsComponent } from './tips/tips.component';
     FormulaireAchatComponent,
     ClassementAchatComponent,
     ResultComponent,
-    TipsComponent
+    TipsComponent,
     MapComponent,
-    ResultComponent
+    PhoneComponent,
+    MapComponent
+
   ],
   imports: [
     BrowserModule,
