@@ -22,6 +22,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
+import { TipsComponent } from './tips/tips.component';
 import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
 
 @NgModule({
@@ -38,8 +39,11 @@ import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
     FormulaireAchatComponent,
     ClassementAchatComponent,
     ResultComponent,
+    TipsComponent,
+    MapComponent,
     PhoneComponent,
     MapComponent
+
   ],
   imports: [
     BrowserModule,
