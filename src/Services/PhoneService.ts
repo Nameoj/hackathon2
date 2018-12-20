@@ -20,7 +20,7 @@ export class PhoneService {
 
 
     constructor(public http: HttpClient) {
-        console.log('Hello PhoneService')
+
     }
 
 
@@ -29,8 +29,6 @@ export class PhoneService {
         let listeDeTelephone: Phone[] = [];
         this.http.get<any>(this.ServURL + "/findAll")
         .subscribe((res: any) => {
-            // let answer = response.json();
-            // console.log("Reponse : " + res);
             let listphone = res;
             for (let phone of listphone) {
                 let unPhone = new Phone(
@@ -41,23 +39,21 @@ export class PhoneService {
                 phone.phoneScore)
                   
                 listeDeTelephone.push(unPhone);
-                console.log(unPhone);
+
             }
         });
         
         return listeDeTelephone;
     }
 
-    testServer(){
-        let obs = this.http.get<any>(this.ServURL + "/findAll");
-        obs.subscribe((response) => console.log(response));
-      }  
+    // testServer(){
+    //     let obs = this.http.get<any>(this.ServURL + "/findAll");
+    //     obs.subscribe((response) => console.log(response));
+    //   }  
 
     getOnePhone(){
         const phone: Phone = new Phone();
         this.http.get<Phone>(this.ServURL + "/findById/1").subscribe((res:any) => {
-            console.log(res);
-
             phone.setId(res.id);
             phone.setBrand(res.brand);
             phone.setModel(res.model);
