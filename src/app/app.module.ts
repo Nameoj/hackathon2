@@ -12,7 +12,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageConsoComponent } from './home-page/page-conso/page-conso.component';
 import { PageChangementComponent } from './page-changement/page-changement.component';
 import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
 import { MatCardModule } from '@angular/material/card';
 
