@@ -1,17 +1,17 @@
 <table class="table table-striped mt-3">
-    <thead class="entete">
+    <thead class="entete align-middle">
       <tr>
         <th scope="col"></th>
         <th scope="col">Modèle</th>
         <th scope="col">Prix</th>
-        <th scope="col">Impact carbone</th>
+        <th scope="col">Impact carbone (Co2)</th>
         <th scope="col">Classe énergétique</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody class="col-6 align-self-center">
       <tr *ngFor="let phone of phones">
         <td>
-          <img src="{{phone.classe_energetique}}">
+          <img src="{{phone.picture}}">
         </td>
         <td>
             {{phone.modele}}
@@ -23,7 +23,7 @@
             {{phone.impact_carbone}}
         </td>
         <td>
-          <img src="{{phone.classe_energetique}}">
+          <img class="energie" src="{{phone.classe_energetique}}">
         </td>
       </tr>
     </tbody>

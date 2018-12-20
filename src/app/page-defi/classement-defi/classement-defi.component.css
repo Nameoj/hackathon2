@@ -2,6 +2,7 @@
   background-color:rgb(132, 176, 158);
   color:#f9f8ec;
   padding:5%;
+  margin-top: 2vh;
 }
 
 .titleObjectifs{
@@ -12,6 +13,10 @@
   display: flex;
   justify-content: center;
   font-size:2rem;
+}
+
+.mediaCard {
+  margin-top: 2vh;
 }
 
 .medias{

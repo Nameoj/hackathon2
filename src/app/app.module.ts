@@ -16,17 +16,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
 import { ResultComponent } from './home-page/page-conso/result/result.component';
 import { MatCardModule } from '@angular/material/card';
+import { MapComponent } from './map/map.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
-
-
-
-
-
 
 @NgModule({
   declarations: [
@@ -42,7 +38,8 @@ import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
     FormulaireAchatComponent,
     ClassementAchatComponent,
     ResultComponent,
-    PhoneComponent
+    PhoneComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
