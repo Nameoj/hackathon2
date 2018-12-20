@@ -14,6 +14,7 @@ import { PageChangementComponent } from './page-changement/page-changement.compo
 import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
 import { HttpClientModule } from "@angular/common/http";
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { ResultComponent } from './home-page/page-conso/result/result.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ClassementAchatComponent } from './page-changement/classement-achat/cla
     HomePageComponent,
     PageChangementComponent,
     FormulaireAchatComponent,
-    ClassementAchatComponent
+    ClassementAchatComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
