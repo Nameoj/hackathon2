@@ -10,13 +10,22 @@ import { PageConsoComponent } from './home-page/page-conso/page-conso.component'
 import { PageChangementComponent } from './page-changement/page-changement.component';
 import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
+
+
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    PageConsoComponent
+    PageConsoComponent,
     NavbarComponent,
     HomePageComponent,
     PageChangementComponent,
@@ -27,7 +36,12 @@ import { ClassementAchatComponent } from './page-changement/classement-achat/cla
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatOptionModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

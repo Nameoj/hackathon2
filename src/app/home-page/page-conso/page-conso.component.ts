@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { template } from '@angular/core/src/render3';
+
+
 
 @Component({
   selector: 'app-page-conso',
@@ -8,13 +9,9 @@ import { template } from '@angular/core/src/render3';
 })
 export class PageConsoComponent implements OnInit {
 
-  choixMarque: boolean = false;
-  choixModele: boolean = false;
-
-
   constructor() { }
 
   ngOnInit() {
   }
-
+  
 }

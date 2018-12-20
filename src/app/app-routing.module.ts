@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageChangementComponent } from './page-changement/page-changement.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { PageConsoComponent } from './home-page/page-conso/page-conso.component';
 
 const routes: Routes = [
   { path: "changement", component: PageChangementComponent},
-  { path: '', component: HomePageComponent}
+  { path: '', component: HomePageComponent},
+  { path: "conso", component: PageConsoComponent }
   ];
 
 @NgModule({
