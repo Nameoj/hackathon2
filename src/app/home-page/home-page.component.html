@@ -22,4 +22,11 @@
       évaluer et surveiller votre consommation énergétique.
     </p>
   </div>
+  <ul *ngFor="let phone of phones">
+    <li>
+      {{ phone | json }}
+      
+    </li>
+  </ul>
+
 </div>

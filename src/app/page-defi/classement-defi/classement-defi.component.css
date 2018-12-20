@@ -1,0 +1,21 @@
+.objectifs {
+  background-color:rgb(132, 176, 158);
+  color:#f9f8ec;
+  padding:5%;
+}
+
+.titleObjectifs{
+  font-size: 2rem;
+}
+
+.titleClassement{
+  display: flex;
+  justify-content: center;
+  font-size:2rem;
+}
+
+.medias{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
