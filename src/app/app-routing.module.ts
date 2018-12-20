@@ -17,7 +17,9 @@ const routes: Routes = [
   { path: 'consommation', component : PageConsoComponent},
   { path: 'result_conso', component : ResultComponent },
   { path: 'classement-tel', component : ClassementAchatComponent},
-  {path: 'defi', component: TableauDefiComponent}
+  {path: 'defi', component: TableauDefiComponent},
+  { path: "conso", component: PageConsoComponent },
+  { path: 'classement', component : ClassementDefiComponent}
 ];
 
 @NgModule({

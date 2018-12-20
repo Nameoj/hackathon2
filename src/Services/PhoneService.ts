@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from "@angular/core";
-import { Phone } from "src/models/Phone";
+import { Phone } from "../models/Phone";
 import { Observable } from 'rxjs';
 
 
