@@ -14,6 +14,7 @@ import { PageChangementComponent } from './page-changement/page-changement.compo
 import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
 import { HttpClientModule } from "@angular/common/http";
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ClassementAchatComponent } from './page-changement/classement-achat/cla
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
