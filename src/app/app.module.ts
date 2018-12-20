@@ -22,6 +22,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
+import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
 
 @NgModule({
   declarations: [
@@ -36,8 +37,9 @@ import { MatSelectModule } from '@angular/material/select';
     PageChangementComponent,
     FormulaireAchatComponent,
     ClassementAchatComponent,
-    MapComponent,
-    ResultComponent
+    ResultComponent,
+    PhoneComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
