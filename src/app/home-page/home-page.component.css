@@ -1,0 +1,27 @@
+.textIntroContainer{
+    width: 75vw;
+    height: 25vh;
+    overflow-x: scroll;
+    display: block;
+    margin: auto;
+    text-align: justify,
+}
+
+.textIntro {
+    text-align: justify;
+}
+
+.btnContainer {
+    width: 80vw;
+    margin: auto;
+}
+
+.HomePageBtn {
+    display: block;
+    margin: 5vh auto;
+    width: 60vw;
+    height: 15vh;
+    background-color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+}
