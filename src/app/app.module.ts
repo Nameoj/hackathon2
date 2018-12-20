@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { PageChangementComponent } from './page-changement/page-changement.component';
+import { FormulaireAchatComponent } from './page-changement/formulaire-achat/formulaire-achat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomePageComponent
+    HomePageComponent,
+    PageChangementComponent,
+    FormulaireAchatComponent
   ],
   imports: [
     BrowserModule,
