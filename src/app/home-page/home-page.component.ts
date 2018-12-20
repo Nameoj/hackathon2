@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Phone } from 'src/models/Phone';
+import { PhoneService } from 'src/Services/PhoneService';
 
 @Component({
   selector: 'app-home-page',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+public phones:Phone[];
+
+  constructor(
+    public phoneService: PhoneService
+  ) { }
 
   ngOnInit() {
+  // this.phoneService.testServer();
+  this.phones = this.phoneService.getPhone();
+  
+
   }
 
 }
