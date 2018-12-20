@@ -20,7 +20,7 @@ import { ClassementAchatComponent } from './page-changement/classement-achat/cla
     AppComponent,
     PageDefiComponent,
     TableauDefiComponent,
-    ClassementDefiComponent
+    ClassementDefiComponent,
     HomePageComponent,
     PageConsoComponent,
     NavbarComponent,
