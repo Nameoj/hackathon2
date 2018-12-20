@@ -1,0 +1,16 @@
+.dropdown-toggle {
+
+    width: 50vh;
+    background-color: green;
+    margin-left: 1.5vh;
+}
+
+.dropdown {
+
+    margin-top: 8vh;
+
+}
+
+.fas {
+    margin-right: 1vh;
+}
