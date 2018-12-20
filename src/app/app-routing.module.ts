@@ -20,6 +20,8 @@ const routes: Routes = [
   { path: 'classement-tel', component : ClassementAchatComponent},
   {path: 'defi', component: TableauDefiComponent},
   {path: 'challenge', component: PageDefiComponent},
+  { path: 'conso', component: PageConsoComponent },
+  { path: 'classement', component : ClassementDefiComponent}
 ];
 
 @NgModule({
