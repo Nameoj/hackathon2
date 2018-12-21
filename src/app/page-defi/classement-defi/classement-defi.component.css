@@ -13,10 +13,21 @@
 
 .mediaCard {
   margin-top: 2vh;
+  height: 110px;
 }
 
 .medias{
   display:flex;
   justify-content: space-around;
   margin-bottom: 30px;
+  min-width: 30vmin,
+}
+
+.facebook{
+  margin-top: 8px;
+}
+
+.insta{
+  margin-top: 8px;
+  margin-left: 6px;
 }

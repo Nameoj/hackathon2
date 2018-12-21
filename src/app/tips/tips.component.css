@@ -1,3 +1,4 @@
+
 .infoCard {
     background-color: white;
     color: black;
@@ -10,9 +11,13 @@
 .infoCardImg {
     display: block;
     margin: 2vh auto;
-    width: 80px;
-    height: 80px;
+    max-width: 60px;
+
 }
+
+/* .infoCard2 img{
+    margin-left: 0px;
+} */
 
 .infoText {
     margin-left: 22px;
