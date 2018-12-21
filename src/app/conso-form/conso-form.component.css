@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.mat-form-field {
+    width: 75vw;
+}
+
+.mat-raised-button {
+    display: block;
+    margin: 2vh auto;
+    width: 30vw;
+    height: 10vh;
+    color: white;
+    background-color: green;
+    font-size: 1.5em;
+}
+
+.mat-card {
+    display: block;
+    margin: 4vh auto;
+}
