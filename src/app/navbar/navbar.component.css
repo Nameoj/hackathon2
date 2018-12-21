@@ -1,3 +1,7 @@
 .navbar{
     background-color: #FFFFFF;
 }
+
+button:focus {
+    outline: 5px auto #47b09b;
+}
