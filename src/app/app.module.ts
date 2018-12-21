@@ -24,6 +24,11 @@ import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { TipsComponent } from './tips/tips.component';
 import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
+import { ConsoFormComponent } from './conso-form/conso-form.component';
+import { ResultTestComponent } from './home-page/page-conso/result/result-test/result-test.component';
+import { ObjectivesComponent } from './home-page/page-conso/result/objectives/objectives.component';
+import { FormsModule } from '@angular/forms';
+import { DefipersoComponent } from './home-page/page-conso/result/defiperso/defiperso.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +47,11 @@ import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
     TipsComponent,
     MapComponent,
     PhoneComponent,
-    MapComponent
+    MapComponent,
+    ConsoFormComponent,
+    ResultTestComponent,
+    ObjectivesComponent,
+    DefipersoComponent
 
   ],
   imports: [
@@ -56,7 +65,8 @@ import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
     MatFormFieldModule,
     ReactiveFormsModule,
     MatOptionModule,
-    MatSelectModule
+    MatSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
