@@ -1,12 +1,5 @@
-.objectifs {
-  background-color:rgb(132, 176, 158);
-  color:#f9f8ec;
-  padding:5%;
+.card {
   margin-top: 2vh;
-}
-
-.titleObjectifs{
-  font-size: 2rem;
 }
 
 .titleClassement{
