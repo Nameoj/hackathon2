@@ -3,6 +3,14 @@
     z-index: 500;
 }
 
+.sidenav[_ngcontent-c1] a[_ngcontent-c1]{
+  font-size:15px;
+}
+/* 
+.d-inline-block {
+  margin-left:40px;
+} */
+
 .nav-item a {
     font-size: 0.5em;
 }
@@ -57,7 +65,7 @@ hr {
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s;
-    padding: 20px;
+    padding: 0px;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
