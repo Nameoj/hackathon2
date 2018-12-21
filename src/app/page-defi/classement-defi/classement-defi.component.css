@@ -6,6 +6,9 @@
   display: flex;
   justify-content: center;
   font-size:2rem;
+  color: #eb692c;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .mediaCard {
