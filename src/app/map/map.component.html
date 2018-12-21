@@ -1,3 +1,29 @@
-<p>
-  map works!
-</p>
+<!-- <agm-map [latitude]="59.326242" [longitude]="17.8419719" >
+  <agm-marker *ngFor='let repair of repairs; let i = index'
+              (markerClick)="showInfoWindow(infoWindow, i)"
+              [latitude]="repair.lat"
+              [longitude]="repair.lng"
+              [markerDraggable]="repair.draggable">
+              <agm-snazzy-info-window>
+              <ng-template>
+              <div class="windows">
+              <h2> {{ repair.name }}</h2>
+              </div>
+              </ng-template>
+              </agm-snazzy-info-window>
+  </agm-marker>
+</agm-map> -->
+
+<agm-map [latitude]="45.7518077" [longitude]="4.833434">
+    <agm-marker *ngFor='let repair of repairs; let i = index'
+                (markerClick)="showInfoWindow(infoWindow, i)"
+                [latitude]="repair.lat"
+                [longitude]="repair.lng"
+                [markerDraggable]="repair.draggable">
+      <agm-snazzy-info-window [maxWidth]="200" [closeWhenOthersOpen]="true">
+        <ng-template>
+          {{repair.name}}
+        </ng-template>
+      </agm-snazzy-info-window>
+    </agm-marker>
+  </agm-map>

@@ -9,6 +9,8 @@ import { ResultComponent } from './home-page/page-conso/result/result.component'
 import { ClassementAchatComponent } from './page-changement/classement-achat/classement-achat.component';
 import { MapComponent } from './map/map.component';
 import { PageDefiComponent } from './page-defi/page-defi.component';
+
+
 import { TipsComponent } from './tips/tips.component';
 import { ConsoFormComponent } from './conso-form/conso-form.component';
 
@@ -23,6 +25,7 @@ const routes: Routes = [
   {path: 'defi', component: TableauDefiComponent},
   {path: 'challenge', component: PageDefiComponent},
   { path: 'conso', component: PageConsoComponent },
+  { path: 'classement', component : ClassementDefiComponent}
   { path: 'tips', component : TipsComponent},
   { path: 'consoForm', component: ConsoFormComponent}
 

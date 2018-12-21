@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, ApplicationRef } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,6 +22,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
+<<<<<<< HEAD
+import { AgmCoreModule } from '@agm/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
+=======
 import { TipsComponent } from './tips/tips.component';
 import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
 import { ConsoFormComponent } from './conso-form/conso-form.component';
@@ -29,6 +35,7 @@ import { ResultTestComponent } from './home-page/page-conso/result/result-test/r
 import { ObjectivesComponent } from './home-page/page-conso/result/objectives/objectives.component';
 import { FormsModule } from '@angular/forms';
 import { DefipersoComponent } from './home-page/page-conso/result/defiperso/defiperso.component';
+>>>>>>> 0815efd10a73ac48296c3da4f8443d362be01fb4
 
 @NgModule({
   declarations: [
@@ -66,7 +73,15 @@ import { DefipersoComponent } from './home-page/page-conso/result/defiperso/defi
     ReactiveFormsModule,
     MatOptionModule,
     MatSelectModule,
+<<<<<<< HEAD
+    CommonModule,
+    FormsModule,
+    AgmSnazzyInfoWindowModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAPpThM_43yyzKd9lydyFLPrOgKiiEXArY'})
+=======
     FormsModule
+>>>>>>> 0815efd10a73ac48296c3da4f8443d362be01fb4
   ],
   providers: [],
   bootstrap: [AppComponent]
