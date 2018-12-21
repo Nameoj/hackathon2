@@ -24,6 +24,7 @@ import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { TipsComponent } from './tips/tips.component';
 import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
+import { ConsoFormComponent } from './conso-form/conso-form.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { PhoneComponent } from './home-page/page-conso/phone/phone.component';
     TipsComponent,
     MapComponent,
     PhoneComponent,
-    MapComponent
+    MapComponent,
+    ConsoFormComponent
 
   ],
   imports: [
