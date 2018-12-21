@@ -17,8 +17,8 @@
     border-radius: 15px;
     display: flex;
     flex-direction: row;
-    max-width: 90%;
-    min-height:115px;
+    /* max-width: 90%; */
+    min-height:95px;
     padding: 0px 8px;
 }
 

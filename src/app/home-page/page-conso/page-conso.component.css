@@ -1,16 +1,35 @@
 .dropdown-toggle {
 
     width: 50vh;
-    background-color: green;
+    background-color: #84B19E;
     margin-left: 1.5vh;
 }
 
 .dropdown {
 
-    margin-top: 8vh;
+    margin-top: 6vh;
 
 }
 
 .fas {
     margin-right: 1vh;
+}
+
+.card {
+    margin-left: 30px;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+.card-img-top {
+    background-color: gray;
+}
+
+.gras {
+    font-weight: bold;
+
 }

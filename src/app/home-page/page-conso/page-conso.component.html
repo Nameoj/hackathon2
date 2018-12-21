@@ -3,11 +3,21 @@
 <div class="container">
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-    Action
+    Votre Smartphone
   </button>
   <div class="dropdown-menu">
-    <a class="dropdown-item" *ngFor="let phone of phones" href="#"><span class="fas fa-mobile-alt"></span>{{ phone.brand }} : {{ phone.model }}</a>
+    <a class="dropdown-item" *ngFor="let phone of phones" [class.selected]="phone === selectedPhone" (click)="onSelect(phone)"><span class="fas fa-mobile-alt"></span>{{ phone.brand }} : {{ phone.model }}</a>
     <div class="dropdown-divider"></div>
+  </div>
+</div>
+<div *ngIf="selectedPhone">
+  <div class="card mt-3" style="width: 18rem;">
+    <img class="card-img-top img-fluid" src="../../../assets/smartphone.png" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-title">Marque : <span class="gras">{{ selectedPhone.brand }}</span></p>
+      <p class="card-title">Modèle : <span class="gras">{{ selectedPhone.model }}</span></p>
+      <p class="card-title">Empreinte Energétique : <span class="gras">{{ selectedPhone.phoneNote }} (score : {{ selectedPhone.phoneScore }})</span></p>
+    </div>
   </div>
 </div>
 </div>
